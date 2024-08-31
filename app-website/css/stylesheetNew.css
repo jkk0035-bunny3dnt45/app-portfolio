@@ -1,0 +1,338 @@
+html{
+    background-color: #021414;
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+#NameParent{
+    margin-bottom: 35px;
+  }
+
+p {
+    font-family: 'Noto Sans';   
+    color: #d6f7fb;
+    font-size: medium;
+}
+
+h1 {
+    font-family: 'Noto Sans';   
+    color: #d6f7fb;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: 'Noto Sans';   
+    color: #d6f7fb;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Noto Sans';   
+    color: #d6f7fb;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: 'Noto Sans';   
+    color: #d6f7fb;
+    font-size: 18px;
+}
+
+
+.NavItem {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;  
+    border-color: #a3a6b1;
+    padding: 12px;
+    margin: 6px;
+    width:100px;
+
+    font-family: 'Noto Sans';
+    color: #d6f7fb;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+
+.NavItem:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;  
+    border-color: #B7CCCE;
+    background-color: #8dd8db;
+    color: black;
+ 
+}
+
+nav ul li a {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;  
+    border-color: #a3a6b1;
+    padding: 12px;
+    margin: 6px;
+    width:100px;
+
+    font-family: 'Noto Sans';
+    color: #d6f7fb;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.1s; 
+}
+
+
+nav ul li a:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;  
+    border-color: #B7CCCE;
+    background-color: #8dd8db;
+    color: black;
+ 
+}
+
+.NavParent {
+    margin-top: 36px;
+    flex-direction: row;
+    display: flex;
+}
+
+.NavParent ul {
+    flex-direction: row;
+    display: flex;
+}
+
+.NavParent li{
+    list-style-type: none;
+}
+
+#Banner {
+    padding: 100px;
+    padding-left: 400px;
+    height: 200px;
+    background-color: rgba(2, 20, 20, 0.7);
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+    backdrop-filter: blur(2px);
+}
+
+#BannerParent{
+    background-image: url("../content/backdrop.png");
+    background-position: right;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    flex-direction: row;
+    background-color: rgba(2, 20, 20, 0.7);
+    backdrop-filter: blur(4px);
+    
+}
+
+nav .NavParent{
+    margin-top: 0px;
+}
+
+nav h1 {
+    font-family: 'Noto Sans';   
+    color: #d6f7fb;
+    font-size: 25px;
+    padding-top: 128px;
+}
+
+#NavParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    padding: 12px;
+    height: 64px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-left: 5%;
+   margin-right: 5%;
+
+}
+
+section h1{
+    padding-top: 86px;
+    justify-content: left;
+    display: flex;
+    margin: 36px;
+}
+
+
+.ProjectParent{
+    display: flex;
+    flex-direction: column;
+    margin: 56px;
+}
+
+
+#Profile, #Project1, #Project2, #Project3, #Project4, #Project5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    flex: 1 1 0px;
+
+}
+
+#About{
+        display: flex;
+        flex-direction: column;
+        margin: 56px; 
+}
+
+#Profile{
+    flex-direction: row; 
+}
+
+#Profile ul img{
+    width: 70%;
+}
+
+
+#ProfileTools{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#ProfileImg{
+    width: 30%;
+    border-bottom-right-radius: 25px;
+}
+
+
+#Project1, #Project3 #Project5{
+    flex-direction: row;
+
+}
+
+#Project2, #Project4 {
+    flex-direction: row-reverse;
+}
+
+article p{
+    text-align: justify;    
+}
+
+.Image{
+    width: fit-content;
+    height: max-content;
+    display: flex;
+}
+
+
+article .Image{
+width: 50%
+}
+
+article .Content{
+    width: 50%
+}
+
+
+.Image, .Content{
+    padding: 24px;
+}
+
+section a img {
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-width: 8px;
+    border-bottom-width: 8px;
+    border-color: #B7CCCE;
+    transition: 0.2s;
+    width: 100%;
+ 
+  }
+
+  section a img:hover {
+    border-right-style:inset;
+    border-bottom-style: inset;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    border-color: #8dd8db;
+    border-bottom-right-radius: 15px;
+    
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .NavItem {
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 25px;  
+        border-color: #a3a6b1;
+        padding: 12px;
+        margin: 6px;
+        width: 90px;;
+    
+        font-family: 'Noto Sans';
+        color: #d6f7fb;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        transition: 0.1s;
+    }
+    
+    
+    .NavItem:hover {
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 25px;  
+        border-color: #B7CCCE;
+        background-color: #8dd8db;
+        color: black;
+     
+    }
+
+
+
+    #Project1, #Project2, #Project3, #Project4, #Project5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        flex: 1 1 0px;
+
+    }
+
+
+
+    section a img {
+        position: absolute;
+        width: 15%;
+        height: 15%;
+        object-fit: cover;
+      }
+  }
+
+
